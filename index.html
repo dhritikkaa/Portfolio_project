@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css">
+</head>
+<body>
+    <!-- nav bar -->
+     <div class="container">
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Logo</p>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+               <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link active-link">Home</a>
+                     <div class="circles"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link">About</a>
+                     <div class="circles"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#myjourney" class="nav-link">My Journey</a>
+                     <div class="circles"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link">Contact</a>
+                     <div class="circles"></div>
+                </li>
+               </ul> 
+            </div>
+            <!-- dark mode -->
+             <div class="mode">
+                <div class="moon-sun" id="toggle-switch">
+                    <i class="fa fa-moon" id="moon"></i>
+                    <i class="fa fa-sun" id="sun"></i>
+                </div>
+             </div>
+             <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+             </div>
+        </nav>
+        <!-- main -->
+         <main class="wrapper">
+           <section class="featured-box" id="home">
+             <div class="featured-text">
+                <div class="hello">
+                    <p>Hello I'm</p>
+                </div>
+                <div class="featured-name">
+                    <span class="typedText"></span>
+                </div>
+                <div class="text-info">
+                    <p>My name is Dhritika! I'm a web developer</p>
+                </div>
+                <div class="text-btn">
+                   <button class="btn">
+                    Hire Me
+                   </button> 
+                   <button class="btn">
+                    <a href="Dhritika resume.pdf">Download CV</a><i class="uil uil-file"></i></button>
+                </div>
+                 <div class="socical_icons">
+                    <div class="icon_circle"></div>
+                    <div class="icon"><a href="https://www.instagram.com/dhritikkaa__/"><i class="uil uil-instagram"></i></a></div>
+                    <div class="icon"><a href="https://www.linkedin.com/in/dhritika-bhardwaj-9908931a3/"><i class="uil uil-linkedin"></i></a></div>
+                    <div class="icon"><i class="uil uil-behance-alt"></i></div>
+                    <div class="icon"><i class="uil uil-github-alt"></i></div>
+                 </div>
+             </div>
+             <div class="featured-img">
+                <div class="image">
+                 <img src="img.jpeg">
+                </div>
+             </div>
+           </section> 
+           <!-- about section  -->
+            <section class="section" id="about">
+                <div class="top-header">
+                  <h1>About Me</h1>  
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <div class="about-info">
+                        <figure class="about-me">
+                            <figcaption>
+                               <img src="bg.jpg" alt="" class="profile"/> 
+                                <h2>Web Developer</h2>
+                                <p>My name is Dhritika!! Innovative and detail-oriented Fresher Front End Developer with a passion
+                                   for creating responsive and user-friendly websites.</p>
+                        </figure>
+                        <button class="about-me-btn">Hire Me</button>
+                    </div>
+                  </div>  
+                  <div class="skill">
+                    <div class="skill-box">
+                        <span class="title">HTML</span>
+                        <div class="skill-bar">
+                            <span class="skill-per html">
+                                <span class="tooltip">90%</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="skill-box">
+                        <span class="title">CSS</span>
+                        <div class="skill-bar">
+                            <span class="skill-per css">
+                                <span class="tooltip">87%</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="skill-box">
+                        <span class="title">Javascript</span>
+                        <div class="skill-bar">
+                            <span class="skill-per javascript">
+                                <span class="tooltip">78%</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="skill-box">
+                        <span class="title">React</span>
+                        <div class="skill-bar">
+                            <span class="skill-per react">
+                                <span class="tooltip">75%</span>
+                            </span>
+                        </div>
+                    </div> 
+                  </div>
+                </div>
+            </section>
+            <!-- my Journey -->
+            <section class="education" id="myjourney">
+                <h2 class="heading">MyJourney</h2>
+                <div class="education-row">
+                  <div class="education-column">
+                    <h4 class="title">Education</h4>
+                    <div class="education-box">
+                      <div class="education-content">
+                        <div class="content">
+                          <div class="year"><i class='bx bxs-calendar'></i>2022 - 2024</div>
+                          <h3>Master Degree - Chandigarh University</h3>
+                          <p>I have completed my Master’s in Computer Applications (MCA) from Chandigarh University, where I gained comprehensive knowledge and hands-on experience in various aspects of computing and technology.</p>
+                        </div>
+                      </div>
+                      <div class="education-content">
+                        <div class="content">
+                          <div class="year"><i class='bx bxs-calendar'></i>2019 - 2022</div>
+                          <h3>Bachelor Degree - Chandigarh University</h3>
+                          <p>I have dcompleted my Bachelor's degree in Computer's Applications from Chandigarh University.This progra, equipped me with essential skills and knowledge</p>
+                        </div>
+                      </div>
+                      <div class="education-content">
+                        <div class="content">
+                          <div class="year"><i class='bx bxs-calendar'></i>2017 - 2019</div>
+                          <h3>Secondary Education - Sant Karam Singh Academy</h3>
+                          <p>I have completed my secondary education in Non-Medical stream from Sant Karam Singh Academy, where i focused subjects related to Science and Mathematics.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="education-column">
+                    <h4 class="title">Experience</h4>
+                    <div class="education-box">
+                      <div class="education-content">
+                        <div class="content">
+                          <div class="year"><i class='bx bxs-calendar'></i>04-2024 - 09-2024</div>
+                          <h3>Mern Stack- Training - Execellence Technology</h3>
+                          <p>Assist in the development and maintenance of web applications using the MERN stack.
+                            Write and optimize code in JavaScript for front-end and back-end functionalities.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="education-content">
+                        <div class="content">
+                          <div class="year"><i class='bx bxs-calendar'></i>03-2023 - 06-2024</div>
+                          <h3>Hr Executive - Tryfacta Inc</h3>
+                          <p>Hiring and onboarding new employees. Following up for timesheet and making sure payroll for all employees is smooth.
+                            Initiating off-boarding employees.</p>
+                        </div>
+                      </div>
+                      <div class="education-content">
+                        <div class="content">
+                          <div class="year"><i class='bx bxs-calendar'></i>01-2022 - 03-2023</div>
+                          <h3> Technical Recruiter - Outline System India Pvt</h3>
+                          <p>Responsible forsourcing, attracting, and interviewing prospective employeesto find the perfect
+                            match for a company's long-term goal.Coordinating with hiring managers to identify staffing needs</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </section>
+            <!-- contact US -->
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Let's Work Together</h1>
+                    <span>Do you have a project in your mind, contact me here</span>
+                </div>
+                    <div class="row">
+                       <div class="col">
+                        <div class="contact-info">
+                          <h2>Find me<i class="uil uil-corner-right-down"></i></h2>
+                          <p> <i class="uil uil-envelope"></i>Email: dhritikadev@gmail.com</p>
+                          <p><i class="uil uil-phone"></i>Phone:9041952614</p>
+                          </div>
+                       </div>
+                       <div class="col">
+                        <div class="form-control">
+                          <div class="form-input">
+                            <input type="text" class="input-field" placeholder="your Name">
+                            <input type="text" class="input-field" placeholder="your Email">
+                          </div>
+                          <div class="text-area">
+                            <input type="text" class="input-subject" placeholder="subject">
+                            <textarea placeholder="Message"></textarea>
+                          </div>
+                          <div class="form-button">
+                            <button class="btn">Send<i class="uil uil-message"></i></button>
+                          </div>
+                        </div>
+                       </div> 
+                    </div>     
+            </section>
+         </main>
+          <!-- Footer -->
+           <footer>
+            <div class="middle-footer">
+              <ul class="footer-menu">
+                <li class="footer_menu_list">
+                  <a href="#home">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                  <a href="#about">About</a>
+                </li>
+                <li class="footer_menu_list">
+                  <a href="#myjourney">My Journey</a>
+                </li>
+                <li class="footer_menu_list">
+                  <a href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-social-icons">
+              <div class="icon"><i class="uil uil-instagram"></i></div>
+              <div class="icon"><i class="fa-brands fa-linkedin-in icon"></i></div>
+              <div class="icon"><i class="uil uil-behance-alt"></i></div>
+              <div class="icon"><i class="uil uil-github-alt"></i></div>
+            </div>
+            <div class="bottom-footer">
+              <p>Copyright &copy; <a href="#home" style="text-decoration: none;">dhritikabhardwaj</a> - All rights reserved 2024</p>
+            </div>
+          </footer>
+     </div>
+     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+     <script src="script.js"></script>
+    </body>
+</html>  
